@@ -1,9 +1,10 @@
 .product-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 50px 48px;
 
   &__product-card {
-    margin-bottom: 50px;
+    //margin-bottom: 50px;
   }
 }

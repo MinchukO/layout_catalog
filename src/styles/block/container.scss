@@ -5,10 +5,11 @@
 
   @media (max-width: 201px) {
     width: 200px;
+    padding-top: 0;
   }
 
   @media (min-width: 1025px) {
-    width: 945px;
+    width: 944px;
     margin: 0 auto;
     padding-top: 50px;
   }
